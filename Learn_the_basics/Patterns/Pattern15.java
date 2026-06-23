@@ -1,0 +1,16 @@
+package Learn_the_basics.Patterns;
+
+import java.util.Scanner;
+
+public class Pattern15 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        for(int row = n; row>0; row--){
+            for(int col = 0; col<row; col++)
+                System.out.print((char)('A'+col));
+            System.out.println();
+        }
+        sc.close();
+    }
+}
