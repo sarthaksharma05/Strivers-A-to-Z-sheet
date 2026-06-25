@@ -11,12 +11,10 @@ public class Pattern21 {
                     System.out.print("*");
             }
             else{
-                for(int col = 0; col<1; col++)
-                    System.out.print("*");
+                System.out.print("*");
                 for(int space = 0; space<n-2; space++)
                     System.out.print(" ");
-                for(int col = 0; col<1; col++)
-                    System.out.print("*");
+                System.out.print("*");
             }
             System.out.println();
         }
